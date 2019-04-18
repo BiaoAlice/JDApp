@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "img": "@/../static/img/product1.jpg"
+    },
+    {
+        "id": "2",
+        "img": "@/../static/img/product2.png"
+    },
+    {
+        "id": "3",
+        "img": "@/../static/img/product3.jpg"
+    }
+]
