@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div :class="[cname]">
         <h3>{{title}}</h3>
         <slot/>
     </div>
@@ -10,6 +10,10 @@ export default {
     name:"panle",
     props:{
         title:{
+            type:String,
+            default:''
+        },
+        cname:{
             type:String,
             default:''
         }
