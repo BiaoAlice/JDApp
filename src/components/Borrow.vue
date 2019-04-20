@@ -48,7 +48,6 @@ export default {
       this.imgArr = swiperData;
       this.cardArr = cardData;
       }));
-
   }
 };
 </script>

@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "img":"@/../static/img/saveSwiper1.jpg"
+    },
+    {
+        "id":"2",
+        "img":"@/../static/img/saveSwiper2.jpg"
+    },
+    {
+        "id":"3",
+        "img":"@/../static/img/saveSwiper3.jpg"
+    },
+    {
+        "id":"4",
+        "img":"@/../static/img/saveSwiper4.jpg"
+    },
+    {
+        "id":"5",
+        "img":"@/../static/img/saveSwiper5.jpg"
+    }
+
+]
