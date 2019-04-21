@@ -6,6 +6,8 @@ import router from './router'
 import Panle from "./components/common/Panle"
 import MyHeader from "./components/common/MyHeader"
 import Swiper from "./components/common/Swiper"
+import VipList from "./components/common/Viplist"
+import Border from "./components/common/Border"
 import MintUI from 'mint-ui'
 import axios from 'axios'
 import "../static/css/common.css"
@@ -20,6 +22,8 @@ Vue.config.productionTip = false
 Vue.component("my-panle",Panle);
 Vue.component("my-header",MyHeader);
 Vue.component("my-swiper",Swiper);
+Vue.component("my-list",VipList);
+Vue.component("my-border",Border);
 
 /* eslint-disable no-new */
 new Vue({

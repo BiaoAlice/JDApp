@@ -89,4 +89,29 @@ export default {
     padding-left:.16rem;
   }
 }
+.vipMy{
+  border-top:1px solid #eee;
+  height: .7rem;
+  line-height: .7rem;
+  .img-box{
+    padding: .1rem .16rem 0;
+    img{
+      width: .5rem;
+      height: .5rem;
+    }
+  }
+}
+.vipMyOne{
+  border-bottom:1px solid #eee;
+  height: .56rem;
+  line-height: .56rem;
+  .img-box{
+    height: .56rem;
+    padding: .05rem .16rem 0;
+    img{
+      width: .24rem;
+      height: .24rem;
+    }
+  }
+}
 </style>

@@ -17,12 +17,12 @@
          <div class="img-box">
            <img src="@/../static/img/makeGg.jpg" alt="">
          </div>
-         <div class="border"></div>
+         <my-border></my-border>
           <my-panle :class="cname"  title="小金库">
             <p class="p">稳健灵活 小白精选</p>
            <my-swiper cname ="my-swiper-third" :imgList= "smallArr" :options = "options"/>
          </my-panle>
-         <div class="border"></div>
+         <my-border></my-border>
         <my-panle :class="cname"  title="保险保障">
           <div class="card-box">
             <div class="card-left">
@@ -39,11 +39,11 @@
             </div>
           </div>
          </my-panle>
-         <div class="border"></div>
+         <my-border></my-border>
          <div class="img-box">
            <img src="@/../static/img/makeGg2.jpg" alt="">
          </div>
-         <div class="border"></div>
+         <my-border></my-border>
     </div>
 </template>
 
@@ -133,10 +133,7 @@ export default {
       width:100%;
     }
   }
-  .border{
-    padding-bottom:.1rem;
-    border-bottom:.1rem solid #eee;
-  }
+
   .p{
     font-size: .14rem;
     padding-bottom: .1rem;

@@ -9,6 +9,9 @@ import Vip from '@/components/Vip'
 Vue.use(Router)
 
 export default new Router({
+  scrollBehavior (to, from, savedPosition) {
+    return {x:0,y:0}
+  },
   routes: [
     {
       path: '/',
