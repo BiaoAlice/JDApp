@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "img": "@/../static/img/safe1.jpg"
+    },
+    {
+        "id": "2",
+        "img": "@/../static/img/safe2.jpg"
+    },
+    {
+        "id": "3",
+        "img": "@/../static/img/safe3.jpg"
+    },
+    {
+        "id": "4",
+        "img": "@/../static/img/safe4.jpg"
+    },
+    {
+        "id": "5",
+        "img": "@/../static/img/safe5.jpg"
+    }
+]

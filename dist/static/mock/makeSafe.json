@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title":"车险",
+        "img": "@/../static/img/makeSafe1.png"
+    },
+    {
+        "id": "2",
+        "title":"人寿",
+        "img": "@/../static/img/makeSafe2.png"
+    },
+    {
+        "id": "3",
+        "title":"意外",
+        "img": "@/../static/img/makeSafe3.png"
+    },
+    {
+        "id": "4",
+        "title":"财产",
+        "img": "@/../static/img/makeSafe4.png"
+    },
+    {
+        "id": "5",
+        "title":"健康",
+        "img": "@/../static/img/makeSafe5.png"
+    },
+    {
+        "id": "6",
+        "title":"旅行",
+        "img": "@/../static/img/makeSafe6.png"
+    }
+]

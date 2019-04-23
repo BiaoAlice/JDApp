@@ -1,0 +1,27 @@
+[
+    {
+        "id": "home",
+        "title":"首页",
+        "img": "@/../static/img/tabbar1.png"
+    },
+    {
+        "id": "markmoney",
+        "title":"赚钱",
+        "img": "@/../static/img/tabbar2.png"
+    },
+    {
+        "id": "borrowmoney",
+        "title":"借钱",
+        "img": "@/../static/img/tabbar3.png"
+    },
+    {
+        "id": "savemoney",
+        "title":"省钱",
+        "img": "@/../static/img/tabbar4.png"
+    },
+    {
+        "id": "vip",
+        "title":"金融会员",
+        "img": "@/../static/img/tabbar5.png"
+    }
+]
