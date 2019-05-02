@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "title":"机票",
+        "img": "@/../static/img/borrowCard1.png"
+    },
+    {
+        "id": "2",
+        "title":"租房",
+        "img": "@/../static/img/borrowCard2.png"
+    },
+    {
+        "id": "3",
+        "title":"房抵贷",
+        "img": "@/../static/img/borrowCard3.png"
+    },
+    {
+        "id": "4",
+        "title":"分期用",
+        "img": "@/../static/img/borrowCard4.png"
+    },
+    {
+        "id": "5",
+        "title":"彩票推荐",
+        "img": "@/../static/img/borrowCard5.png"
+    }
+]
