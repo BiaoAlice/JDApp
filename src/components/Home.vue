@@ -64,13 +64,13 @@ export default {
     };
   },
   created() {
-    let swiper = () => this.$axios.get("/swiper.json"),
-        bannle = () => this.$axios.get("/bannle.json"),
-        financing = () => this.$axios.get("/financing.json"),
-        sj = () => this.$axios.get("sj.json"),
-        safe = () => this.$axios.get("safe.json"),
-        product = () => this.$axios.get("product.json"),
-        footer = () => this.$axios.get("homeFooter.json");
+    let swiper = () => this.$axios.get("api/static/mock/swiper.json"),
+        bannle = () => this.$axios.get("api/static/mock/bannle.json"),
+        financing = () => this.$axios.get("api/static/mock/financing.json"),
+        sj = () => this.$axios.get("api/static/mocksj.json"),
+        safe = () => this.$axios.get("api/static/mocksafe.json"),
+        product = () => this.$axios.get("api/static/mockproduct.json"),
+        footer = () => this.$axios.get("api/static/mockhomeFooter.json");
     this.$axios.all([swiper(), bannle(), financing(),sj(),safe(),product(),footer()]).then(
       this.$axios.spread((a, b, c, d, e, f, g) => {
         let swiperData = a.data,

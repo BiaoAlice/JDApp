@@ -15,7 +15,7 @@ import "../static/css/common.css"
 import 'swiper/dist/css/swiper.css'
 
 Vue.prototype.$axios = axios
-axios.defaults.baseURL = "../../static/mock"
+// axios.defaults.baseURL = "../../static/mock"
 
 Vue.use(MintUI)
 Vue.config.productionTip = false

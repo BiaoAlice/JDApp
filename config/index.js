@@ -11,7 +11,13 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-
+      '/api':{
+          target: 'https://biaoalice.github.io/',
+          changeOrigin: true,
+          pathRewrite: {
+            '^/api': ''
+          }
+        }
     },
 
     // Various Dev Server settings
